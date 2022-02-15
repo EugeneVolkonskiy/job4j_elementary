@@ -14,4 +14,13 @@ public class CounterTest {
         int expected = 30;
         assertEquals(expected, result);
     }
+
+    @Test
+    public void whenSumEvenNumbersFromFiveToNineteenThenEightyFour() {
+        int start = 5;
+        int finish = 19;
+        int result = Counter.sumByEven(start, finish);
+        int expected = 84;
+        assertEquals(expected, result);
+    }
 }
